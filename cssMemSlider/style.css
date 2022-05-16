@@ -104,45 +104,4 @@ label::before {
     top: -1595px;
 }
 
-@media (max-width: 420px){
-    .slider-wrapper {
-        height: 445px;;
-        width: 100%;
-    }
-    .slider {
-        width: calc(100% - 20px);
-        height: 430px;
-    }
-    .image {
-        width: 100%;
-    }
-    .img2 {
-        top: -312px;
-    }
-    .img3 {
-        top: -604px;
-    }
-    .img4 {
-        top: -896px;
-    }
-    label::before {
-        left: calc(50% - 70px);
-        top: 325px;
-    }
-    .text {
-        width: 100%;
-    }
-    .text1 {
-        top: -850px;
-    }
-    .text2 {
-        top: -902px;
-    }
-    .text3{
-        top: -936px;
-    }
-    .text4 {
-        top: -970px;
-    }
 
-}
