@@ -42,9 +42,11 @@ label::before {
 }
 .button:hover+label::before {
     background-image: url(./assets/svg/button-hover.svg);
+    cursor: pointer;
 }
 .button:checked+label:hover::before {
     background-image: url(./assets/svg/button-active-hover.svg);
+    cursor: pointer;
 }
 
 
